@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#include "CUrl/CurlRequests.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  //  requestGet("https://www.baidu.com");
+    requestGet("https://passport.lrlz.com/mobile/index.php?act=special&from=YWN0PW1lbWJlcl90YWxrJm9wPXRhbGtz&op=index&special_id=0");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
